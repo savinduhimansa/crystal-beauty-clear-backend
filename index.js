@@ -6,7 +6,6 @@ import productRouter from './routes/productRouter.js';
 import verifyJWT from './middleware/auth.js';
 import orderRouter from './routes/orderRouter.js';
 import dotenv from "dotenv";
-
 dotenv.config();
 
 const app = express();
